@@ -164,8 +164,19 @@
               "icon": "lucide-list",
               "title": "Outline of Ass Debuger (adb)"
             }
+          },
+          {
+            "id": "032bb6c9d4eb8f99",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,7 +190,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "9fb34d4db516f1e6",
