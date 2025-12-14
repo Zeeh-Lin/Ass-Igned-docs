@@ -1,22 +1,30 @@
 ## Commands Table
 
-### Task Commands
+包含5条指令。
 
-| Name            | Description                                                  |
-| --------------- | ------------------------------------------------------------ |
-| h               | Display information about all supported commands             |
-| q               | Quit Ass-Igned                                               |
-| add             | Add a task                                                   |
-| del             | Delete a task                                                |
-| done \<id>      | Set the task status to "done" and update its completion time |
-| update \<id>    | Update a task (time, priority, title)                        |
-| ls \[time/prio] | List all tasks \[sorted by time / priority]                  |
-| info \<id>      | View complete information of a task                          |
-| next            | Find and display the next most urgent task                   |
+| Commands | Description                                         |
+| -------- | --------------------------------------------------- |
+| help     | Display information about all supported commands.   |
+| quit     | Quit Ass-Igned.                                     |
+| task     | To CRUD a task.                                     |
+| ai       | A set of commands related to ai, such as `ai chat`. |
+| rpt      | Generate weekly/monthly report.                     |
 
-### AI Commands
+### `task`
 
-**brief:** ai \[chat / sug / plan / sum]
+包含一系列任务相关的子命令。
+
+| Subcommands | Description                       |
+| ----------- | --------------------------------- |
+| add         | Create a task.                    |
+| del         | Delete a task.                    |
+| done        | Set a task's status to be `DONE`. |
+| update      | Update a task's information.      |
+
+
+### `ai`
+
+包含一系列AI相关的子命令。
 
 | Subcommands Name | Description  |
 | ---------------- | ------------ |
@@ -25,11 +33,11 @@
 | plan             | AI plan      |
 | sum              | AI summaries |
 
-### Report Commands
+### `rpt`
 
-**brief:** rpt \[w / m]
+生成周报/月报。
 
 | Subcommands Name | Description    |
 | ---------------- | -------------- |
-| w                | Weekly report  |
-| m                | Monthly report |
+| week             | Weekly report  |
+| month            | Monthly report |

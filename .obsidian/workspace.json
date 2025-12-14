@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DesignDocuments/Ass Debuger (adb).md",
+                "file": "02-TechnicalRoadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ass Debuger (adb)"
+              "title": "02-TechnicalRoadmap"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DesignDocuments/Ass Debuger (adb).md",
+                "file": "02-TechnicalRoadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Ass Debuger (adb) 的大纲"
+              "title": "02-TechnicalRoadmap 的大纲"
             }
           },
           {
@@ -210,11 +210,14 @@
   },
   "active": "08cb11ff7cdd46bc",
   "lastOpenFiles": [
-    "DesignDocuments/GeneralNamingConventions.md",
-    "01-PRD.md",
-    "02-TechnicalRoadmap.md",
-    "DesignDocuments/DataTypes.md",
     "03-Change Log.md",
-    "DesignDocuments/Ass Debuger (adb).md"
+    "DesignDocuments/ModulesDesign.md",
+    "DesignDocuments/common.md",
+    "02-TechnicalRoadmap.md",
+    "DesignDocuments/GeneralNamingConventions.md",
+    "DesignDocuments/UtilsSpecification.md",
+    "DesignDocuments/Ass Debuger (adb).md",
+    "DesignDocuments/DataTypes.md",
+    "01-Outline.md"
   ]
 }
